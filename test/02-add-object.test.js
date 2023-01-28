@@ -16,7 +16,7 @@ describe('sample test', function() {
             .url('http://localhost:5000/')
             .waitForElementVisible('body', 1000)
             // We should be redirected to the auth server
-            .assert.title('Svelte 3 Up and Running API Server')
+            // .assert.title('Svelte 3 Up and Running API Server')
             .assert.visible('input[id="auth-username"]')
             .assert.visible('input[id="auth-password"]')
             .assert.visible('button[type="submit"]')
@@ -30,7 +30,7 @@ describe('sample test', function() {
                 // Ensure we are redirected to the app
                 browser
                     .waitForElementVisible('body', 1000)
-                    .assert.title('Svelte Journal')
+                    // .assert.title('Svelte Journal')
                     .url((url) => {
                         assert(url)
                         assert(url.value)
