@@ -10,7 +10,7 @@ env:
   CDN_PROFILE_NAME: 'SvelteAppJournalCDN'
   # Name of your Azure CDN endpoint
   CDN_ENDPOINT: 'sveltejournalcdnendpoint'
-  NODE_VERSION: '12.x'
+  NODE_VERSION: '16.x'
 
 jobs:
   build-and-deploy:
