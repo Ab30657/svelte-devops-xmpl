@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 /* eslint-disable no-undef */
 describe('sample test', function() {
     this.slow(2000)
